@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "types": ["node","jest"],
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+      "node_modules",      // Exclude node_modules
+      "dist",               // Exclude the compiled output
+      "jest.config.ts"     // Exclude your Jest config
+    ]
+}
