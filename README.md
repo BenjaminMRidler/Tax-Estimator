@@ -1,6 +1,12 @@
 # Tax Estimator Project
 
-This is a **Node.js** and **TypeScript** project designed to estimate taxes. The project includes tests written using **Jest**. This `README` provides instructions for setting up the environment, installing dependencies, running tests, and building the project.
+This is a **Node.js** and **TypeScript** project designed to estimate USA/NYS taxes for a range of gross incomes. 
+
+**Note:** It's currently configured to estimate taxes for a married couple with 2 children filing in 2024. The gross represents the combined income of the couple.
+
+The project includes tests written using **Jest**, but the tests are incomplete. This `README` provides instructions for setting up the environment, installing dependencies, running tests, and building the project.
+
+***NOTICE*** **This is presented as is and no gaurantees are made regrading the accuracy of the calculations. Use at your own risk!**
 
 ## Prerequisites
 
